@@ -1,0 +1,77 @@
+.button {
+  background-color: $button-bg;
+  //background: transparent;
+  border: 1px solid black;
+  color: $button-color;
+  cursor: pointer;
+  font-size: $base-font-size;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: .6rem;
+  outline: solid black 1px;
+  padding: .3rem;
+  transition: background .2s ease, transform .2s ease;
+  height: 2.4rem;
+  &:hover, &:focus {
+    background: #e8e8e8;
+  }
+  &:active {
+    background: #cccccc;
+    transform: scale(1.1);
+  }
+}
+
+.button--round {
+border-radius: 50%;
+height: 4rem;
+width: 4rem;
+
+}
+
+
+.button--link {
+
+  background-color: $button-bg;
+
+  //display: inline-block;
+  height: 10rem;
+  text-decoration: none;
+  margin-bottom: $space;
+
+//  padding: 2rem 2rem;
+//  margin: 6rem 6rem 6rem 6rem;
+  &:hover, &:focus {
+    background: #e8e8e8;
+  }
+}
+
+
+.button--pill {
+  background-color: $button-bg;
+  border: 1px solid $button-pill-color;
+  color: $button-color;
+  padding: .3rem .8rem;
+  margin: 0 ($space/2) 0 0;
+}
+
+
+.button--secondary {
+  background: $button-secondary-bg;
+  border: 1px solid $button-secondary-border-color;
+  color: $button-secondary-color;
+  margin-top: .4rem;
+}
+
+
+.button--link-text {
+//  background: none;
+//  margin: 0;
+//  padding: 0;
+//  text-decoration: underline;
+
+
+
+}

@@ -1,0 +1,59 @@
+// CSS declarations go here
+
+
+@import './variables';
+@import './base';
+@import './components/boxedview';
+@import './components/button';
+@import './components/header';
+@import './components/page-content';
+@import './components/checkbox';
+
+
+$green: #a8e58b;
+$green-alt: darken($green, 15%);
+$blue: #8383e2;
+$blue-alt: darken($blue, 15%);
+$red: #ea6262;
+$red-alt: darken($red, 15%);
+$white: #ffffff;
+$white-alt: darken($white, 15%);
+
+
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: $large-font-size;
+  margin-bottom: $space;
+}
+
+Link {
+  font-weight: 300;
+  font-size: 2rem;
+  background-color: red;
+  border-color: $white-alt;
+}
+
+
+
+
+@import './components/title-bar';
+
+@import './components/wrapper';
+
+@import './components/item';
+
+@import './components/button';
+
+@import './components/form';
+
+@import './components/player';

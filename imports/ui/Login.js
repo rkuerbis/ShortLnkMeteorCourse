@@ -25,7 +25,7 @@ export default class Login extends React.Component {
   }
 
 
-  // 
+  //
   // componentWillMount() {
   //   console.log('Titles: ', this.state);
   //   this.setState({titlevar: 'Short Lnk App'});
@@ -97,7 +97,7 @@ onSubmit(e) {
 
         <div className='boxedview'>
           <div className='boxedview__box'>
-            <h1>Login to Short Lnk</h1>
+            <h1>Login to Short Lnk App</h1>
             <p>login form</p>
 
             {this.state.error ? <p>{this.state.error}</p> : undefined}

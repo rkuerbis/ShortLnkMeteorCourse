@@ -91,14 +91,13 @@ onSubmit(e) {
       <div>
         <TitleBar title={titlevar} subtitle={subTitleVar}>
 
-
         </TitleBar>
 
 
         <div className='boxedview'>
           <div className='boxedview__box'>
             <h1>Login to Short Lnk App</h1>
-            <p>login form</p>
+            <p>Login Form:</p>
 
             {this.state.error ? <p>{this.state.error}</p> : undefined}
 

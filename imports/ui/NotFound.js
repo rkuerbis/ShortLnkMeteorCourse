@@ -14,7 +14,7 @@ const NotFound = () => {
 
     <div className='boxedview'>
       <div className='boxedview__box'>
-        <h1>Page Not Found</h1>
+        <h1>ERROR:  Page Not Found</h1>
 
 
         <p>Hmmm, unable to find that page.</p>

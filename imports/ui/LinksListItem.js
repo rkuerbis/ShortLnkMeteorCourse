@@ -136,7 +136,7 @@ renderStats(linkprops) {
           {this.renderStats(linkprops)}
 
         </div>
-        <a className='button button--pill button--link' href={this.props.shortUrl} target='_blank'>
+        <a className='button button--link button--pill' href={this.props.shortUrl} target='_blank'>
           Visit
         </a>
         <button className='button button--pill' ref="copy" data-clipboard-text={linkprops.shortUrl}>{this.state.justCopied ? 'Copied' : 'Copy'}</button>
